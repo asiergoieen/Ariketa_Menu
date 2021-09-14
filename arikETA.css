@@ -5,6 +5,24 @@
     background-color: black;
 }
  
+body {
+    padding: 3em;
+}
+
+img {
+    margin: 3em;
+}
+
+iframe {
+    margin: 20em 0;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 header {
     font-family: Helvetica;
     width: 50%;
@@ -50,4 +68,8 @@ ul {
 }
 #textos{
     float: left;
+}
+
+h3 {
+    margin: 10px;
 }
