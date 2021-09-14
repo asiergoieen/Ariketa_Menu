@@ -13,6 +13,11 @@ ul {
     list-style: none;
 }
  
+#menu{
+    position: fixed;
+    top:0;
+}
+
 #menu li>a {
     background-color: rgb(173, 0, 173);
     color: white;
@@ -29,14 +34,18 @@ ul {
  
 #menu>li {
     float: left;
-    text-align: center
+    text-align: center;
 }
  
 #menu>li>ul {
     display: none;
+    position:absolute;
 }
  
 #menu>li:hover>ul {
     /* display: block; */
     display:block;
+}
+#textos{
+    float: left;
 }
