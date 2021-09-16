@@ -5,6 +5,10 @@
     background-color: black;
 }
  
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     padding: 3em;
 }
