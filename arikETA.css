@@ -2,9 +2,8 @@
     margin: 0;
     padding: 0;
     color: white;
-    background-color: black;
 }
- 
+
 html {
     scroll-behavior: smooth;
 }
@@ -12,10 +11,7 @@ html {
 body {
     padding: 3em;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-img {
-    margin: 3em;
+    background-color: black;
 }
 
 iframe {
@@ -38,6 +34,7 @@ img {
     border-radius: 1em;
     opacity: 0.7;
     transition: 0.5s;
+    margin-top: 2em;
 }
 
 img:hover {
@@ -97,4 +94,11 @@ p {
     color: rgb(209, 209, 209);
     font-weight: lighter;
     margin-bottom: 1em;
+}
+
+.apartado {
+    background-color: rgb(44, 44, 44);
+    margin-bottom: 1em;
+    padding: 1em;
+    border-radius: 1em;
 }
